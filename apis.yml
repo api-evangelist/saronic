@@ -94,6 +94,8 @@ apis:
       - type: PartnerGated
         description: Echelon software access is partner-gated and subject to U.S. export controls (ITAR/EAR).
 common:
+  - type: DomainSecurity
+    url: security/saronic-domain-security.yml
   - type: Website
     url: https://www.saronic.com/
   - type: Vessels
