@@ -12,9 +12,21 @@ description: |
   not publish a public, self-service developer API; integrations are arranged
   through partnership and are subject to U.S. export controls (ITAR/EAR).
 type: Index
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
 position: Provider
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saronic.png
 tags:
   - Defense
   - Maritime
@@ -28,71 +40,9 @@ tags:
   - Naval
 url: https://raw.githubusercontent.com/api-evangelist/saronic/refs/heads/main/apis.yml
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 specificationVersion: '0.20'
-apis:
-  - aid: saronic:echelon
-    name: Echelon Mission Software
-    description: |
-      Echelon is Saronic's mission planning, simulation, and command-and-control
-      platform for managing autonomous surface vessel fleets. It supports
-      single-vessel and swarm deployments, integrates with Navy and joint C2
-      systems, and exposes an open architecture for third-party payload and
-      sensor integration. There is no public API; integrations are gated through
-      Saronic partnerships and subject to U.S. export controls.
-    humanURL: https://www.saronic.com/
-    tags:
-      - Echelon
-      - Mission Planning
-      - C2
-      - Simulation
-      - Fleet Management
-      - Open Architecture
-    properties:
-      - type: Website
-        url: https://www.saronic.com/
-      - type: Vessels
-        url: https://www.saronic.com/vessels
-      - type: News
-        url: https://www.saronic.com/news
-      - type: DARPABriefing
-        url: https://www.navaltoday.com/2026/02/11/darpa-picks-saronic-for-semi-autonomous-vessel-protection-program/
-    features:
-      - name: Mission Planning
-        description: Plan and rehearse single-vessel and multi-vessel missions across maritime areas of operation.
-      - name: High-Fidelity Simulation
-        description: Validate autonomy and operator workflows against realistic ocean, sensor, and threat models.
-      - name: Fleet C2
-        description: Real-time command-and-control for fleets of autonomous surface vessels.
-      - name: Swarm Operations
-        description: Coordinate multiple ASVs as a cooperative swarm.
-      - name: Open Payload Architecture
-        description: Integrate third-party ISR sensors, electronic warfare systems, communications relays, and weapons.
-      - name: Joint C2 Interoperability
-        description: Designed to integrate with Navy and joint command-and-control systems.
-    useCases:
-      - name: Maritime Domain Awareness
-        description: Persistent surveillance of contested or remote maritime areas.
-      - name: Logistics and Resupply
-        description: Autonomous movement of payloads and supplies across the maritime domain.
-      - name: Escort and Protection
-        description: Semi-autonomous escort of unarmed logistics vessels (DARPA Pulling Guard).
-      - name: ISR Missions
-        description: Intelligence, surveillance, and reconnaissance with mixed sensor payloads.
-      - name: Allied Coalition Operations
-        description: Shared mission execution with allied forces (e.g., Taiwan NCSIST collaboration).
-    integrations:
-      - name: U.S. Navy C2 systems
-      - name: DARPA Pulling Guard
-      - name: Vigor Marine Group (manufacturing)
-      - name: Path Robotics (autonomous welding)
-      - name: Taiwan NCSIST
-      - name: Third-party ISR sensors
-      - name: Electronic warfare systems
-      - name: Communications relays
-    authentication:
-      - type: PartnerGated
-        description: Echelon software access is partner-gated and subject to U.S. export controls (ITAR/EAR).
+apis: []
 common:
   - type: DomainSecurity
     url: security/saronic-domain-security.yml
