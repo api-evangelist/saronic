@@ -12,6 +12,17 @@ description: |
   not publish a public, self-service developer API; integrations are arranged
   through partnership and are subject to U.S. export controls (ITAR/EAR).
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
