@@ -51,10 +51,12 @@ tags:
   - Naval
 url: https://raw.githubusercontent.com/api-evangelist/saronic/refs/heads/main/apis.yml
 created: '2026-05-23'
-modified: '2026-07-25'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.saronic.com/newsroom
+    type: Blog
   - type: DomainSecurity
     url: security/saronic-domain-security.yml
   - type: Website
